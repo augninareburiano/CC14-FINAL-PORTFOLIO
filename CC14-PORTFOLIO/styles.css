@@ -1,0 +1,46 @@
+body {
+background: whitesmoke;
+background-size: 40px 40px;
+background-image:
+linear-gradient(to right, grey 1px, transparent 1px),
+linear-gradient(to bottom, grey 1px, transparent 1px);
+}
+
+.first-screen {
+ width: 800px;
+ height: 500px;
+ border: solid rgb(0, 0, 0) 2px; 
+ margin: auto;
+ background: orange;
+ margin-bottom: 60px;
+
+}
+
+.second-screen {
+width: 800px;
+height: 500px;
+border: solid rgb(0, 0, 0) 2px; 
+margin: auto;
+background: orange;
+margin-bottom: 60px;
+}
+
+.chowder {
+    height: 110px;
+    width: 110px;
+    Transform: translate(20px, 350%)
+}
+.kiwi {
+    height: 110px;
+    width: 110px;
+    Transform: translate(20px, 350%)
+}
+
+.third-screen {
+ width: 800px;
+ height: 500px;
+ border: solid rgb(0, 0, 0) 2px; 
+ margin: auto;
+ background: orange;
+ margin-bottom: 60px;
+}
