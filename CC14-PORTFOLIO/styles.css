@@ -4,6 +4,7 @@ background-size: 40px 40px;
 background-image:
 linear-gradient(to right, grey 1px, transparent 1px),
 linear-gradient(to bottom, grey 1px, transparent 1px);
+scroll-behavior: smooth;
 }
 
 .first-screen {
@@ -42,7 +43,9 @@ border: solid rgb(0, 0, 0) 2px;
 margin: auto;
 background: orange;
 margin-bottom: 60px;
+position: relative;
 }
+
 .title , .info {
     display: grid;
     place-items: center;
@@ -59,7 +62,8 @@ margin-bottom: 60px;
 .kiwi {
     height: 110px;
     width: 110px;
-    Transform: translate(20px, 350%)
+    Transform: translate(20px, 350%);
+    left: 150px;
 }
 
 .third-screen {
@@ -69,4 +73,50 @@ margin-bottom: 60px;
  margin: auto;
  background: orange;
  margin-bottom: 60px;
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly ;
 }
+.information {
+    float: right;
+    width: 350px;
+    height: 500px;
+    background-color: antiquewhite;
+
+}
+.cat {
+    background-color: wheat;
+    height: 35%;
+    border: 5px solid black;
+}
+.dog {
+    background-color: blanchedalmond;
+    border: 5px solid black;
+    height: 62%;
+}
+.second-screen .information , .second-screen img {
+    position: absolute;
+    text-align: center;
+}
+.second-screen .information {
+    right: 0;
+    top: 0;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 250px;
+    width: 150px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
